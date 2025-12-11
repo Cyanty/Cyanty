@@ -1,5 +1,5 @@
 <div align="center">
-  <h2>Hi there, I'm <a href="https://github.com/Cyanty">Cyanty</a> 👋&nbsp; <img width="100" src="https://komarev.com/ghpvc/?username=Cyanty&color=00e5ff&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" /></h2>
+  <h2>Hi there, I'm <a href="https://github.com/Cyanty">Cyanty</a> 👋&nbsp; <img width="80" src="https://komarev.com/ghpvc/?username=Cyanty&color=00e5ff&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" /></h2>
 
   <h4>
     <em>
