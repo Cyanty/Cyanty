@@ -25,7 +25,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile-3d.svg">
     <source media="(prefers-color-scheme: light)" srcset="./profile-3d.svg">
-    <img width="200" src="./profile-3d.svg" alt="3D Profile Contribution Graph" />
+    <img width="500" src="./profile-3d.svg" alt="3D Profile Contribution Graph" />
   </picture>
 </p>
 
