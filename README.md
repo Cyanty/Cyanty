@@ -1,5 +1,5 @@
 <div align="center">
-  <h2>Hi there, I'm <a href="https://github.com/Cyanty">Cyanty</a> 👋</h2>
+  <h2>Hi there, I'm <a href="https://github.com/Cyanty">Cyanty</a> 👋&nbsp; <img width="100" src="https://komarev.com/ghpvc/?username=Cyanty&color=00e5ff&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" /></h2>
 
   <h4>
     <em>
@@ -28,9 +28,3 @@
     <img width="600" src="./profile-3d.svg" alt="3D Profile Contribution Graph" />
   </picture>
 </p>
-
-<!-- PROFILE+VIEWS
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Cyanty&color=00e5ff&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
-</div>
--->
