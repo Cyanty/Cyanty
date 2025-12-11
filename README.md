@@ -25,11 +25,9 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile-3d.svg">
     <source media="(prefers-color-scheme: light)" srcset="./profile-3d.svg">
-    <img src="./profile-3d.svg" alt="3D Profile Contribution Graph" />
+    <img width="200" src="./profile-3d.svg" alt="3D Profile Contribution Graph" />
   </picture>
 </p>
-
-<br/>
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Cyanty&color=00e5ff&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
