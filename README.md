@@ -1,4 +1,4 @@
-## Hi there 👋
+## 👋 Hi, I'm Cyanty
 
 <!--
 **Cyanty/Cyanty** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d.svg">
+    <img height="500" src="./profile-3d.svg" alt="3D Profile Contribution Graph" />
+  </picture>
+</p>
