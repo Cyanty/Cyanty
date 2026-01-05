@@ -17,7 +17,13 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+      - run: cd ./.github/actions/github-profile-3d-contrib && npm install
+      - run: cd ./.github/actions/github-profile-3d-contrib && npm run build
 
       - name: Generate 3D Contribution Profile
         uses: ./.github/actions/github-profile-3d-contrib
