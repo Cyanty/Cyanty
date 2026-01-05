@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Build outputs
+dist/
+build/
+*.js
+*.js.map
+.github/actions/github-profile-3d-contrib/dist/
+.github/actions/github-profile-3d-contrib/dist0/
+.github/actions/github-profile-3d-contrib/node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.env.local
+
+# Temporary files
+*.tmp
+.cache/

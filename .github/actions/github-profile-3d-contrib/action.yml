@@ -1,0 +1,11 @@
+name: GitHub-Profile-3D-Contrib
+description: Generate profile 3D Contributions
+author: Cyanty
+
+runs:
+  using: 'node24'
+  main: 'dist/index.js'
+
+branding:
+  icon: 'box'
+  color: 'green'
