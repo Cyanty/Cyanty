@@ -8,10 +8,8 @@ package-lock.json
 # Build outputs
 dist/
 build/
-*.js
-*.js.map
-!.github/actions/github-profile-3d-contrib/dist/
-!.github/actions/github-profile-3d-contrib/dist0/
+.github/actions/github-profile-3d-contrib/dist/
+.github/actions/github-profile-3d-contrib/dist0/
 
 # IDE
 .idea/
