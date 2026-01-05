@@ -2080,9 +2080,16 @@ export const dummyData: client.ResponseType = {
                 "commitContributionsByRepository": [
                     {
                         "repository": {
-                            "primaryLanguage": {
-                                "name": "Jupyter Notebook",
-                                "color": "#DA5B0B"
+                            "languages": {
+                                "edges": [
+                                    {
+                                        "size": 50000,
+                                        "node": {
+                                            "name": "Jupyter Notebook",
+                                            "color": "#DA5B0B"
+                                        }
+                                    }
+                                ]
                             }
                         },
                         "contributions": {
@@ -2091,9 +2098,16 @@ export const dummyData: client.ResponseType = {
                     },
                     {
                         "repository": {
-                            "primaryLanguage": {
-                                "name": "Perl",
-                                "color": "#0298c3"
+                            "languages": {
+                                "edges": [
+                                    {
+                                        "size": 40000,
+                                        "node": {
+                                            "name": "Perl",
+                                            "color": "#0298c3"
+                                        }
+                                    }
+                                ]
                             }
                         },
                         "contributions": {
@@ -2102,9 +2116,16 @@ export const dummyData: client.ResponseType = {
                     },
                     {
                         "repository": {
-                            "primaryLanguage": {
-                                "name": "Kotlin",
-                                "color": "#F18E33"
+                            "languages": {
+                                "edges": [
+                                    {
+                                        "size": 35000,
+                                        "node": {
+                                            "name": "Kotlin",
+                                            "color": "#F18E33"
+                                        }
+                                    }
+                                ]
                             }
                         },
                         "contributions": {
@@ -2113,9 +2134,16 @@ export const dummyData: client.ResponseType = {
                     },
                     {
                         "repository": {
-                            "primaryLanguage": {
-                                "name": "TypeScript",
-                                "color": "#2b7489"
+                            "languages": {
+                                "edges": [
+                                    {
+                                        "size": 30000,
+                                        "node": {
+                                            "name": "TypeScript",
+                                            "color": "#2b7489"
+                                        }
+                                    }
+                                ]
                             }
                         },
                         "contributions": {
@@ -2124,9 +2152,16 @@ export const dummyData: client.ResponseType = {
                     },
                     {
                         "repository": {
-                            "primaryLanguage": {
-                                "name": "Java",
-                                "color": "#b07219"
+                            "languages": {
+                                "edges": [
+                                    {
+                                        "size": 25000,
+                                        "node": {
+                                            "name": "Java",
+                                            "color": "#b07219"
+                                        }
+                                    }
+                                ]
                             }
                         },
                         "contributions": {
@@ -2135,9 +2170,16 @@ export const dummyData: client.ResponseType = {
                     },
                     {
                         "repository": {
-                            "primaryLanguage": {
-                                "name": "Go",
-                                "color": "#00ADD8"
+                            "languages": {
+                                "edges": [
+                                    {
+                                        "size": 20000,
+                                        "node": {
+                                            "name": "Go",
+                                            "color": "#00ADD8"
+                                        }
+                                    }
+                                ]
                             }
                         },
                         "contributions": {
@@ -2146,9 +2188,16 @@ export const dummyData: client.ResponseType = {
                     },
                     {
                         "repository": {
-                            "primaryLanguage": {
-                                "name": "Python",
-                                "color": "#3572A5"
+                            "languages": {
+                                "edges": [
+                                    {
+                                        "size": 15000,
+                                        "node": {
+                                            "name": "Python",
+                                            "color": "#3572A5"
+                                        }
+                                    }
+                                ]
                             }
                         },
                         "contributions": {
@@ -2157,9 +2206,16 @@ export const dummyData: client.ResponseType = {
                     },
                     {
                         "repository": {
-                            "primaryLanguage": {
-                                "name": "JavaScript",
-                                "color": "#f1e05a"
+                            "languages": {
+                                "edges": [
+                                    {
+                                        "size": 12000,
+                                        "node": {
+                                            "name": "JavaScript",
+                                            "color": "#f1e05a"
+                                        }
+                                    }
+                                ]
                             }
                         },
                         "contributions": {
@@ -2168,9 +2224,16 @@ export const dummyData: client.ResponseType = {
                     },
                     {
                         "repository": {
-                            "primaryLanguage": {
-                                "name": "Java",
-                                "color": "#b07219"
+                            "languages": {
+                                "edges": [
+                                    {
+                                        "size": 10000,
+                                        "node": {
+                                            "name": "Java",
+                                            "color": "#b07219"
+                                        }
+                                    }
+                                ]
                             }
                         },
                         "contributions": {
@@ -2179,9 +2242,16 @@ export const dummyData: client.ResponseType = {
                     },
                     {
                         "repository": {
-                            "primaryLanguage": {
-                                "name": "TypeScript",
-                                "color": "#2b7489"
+                            "languages": {
+                                "edges": [
+                                    {
+                                        "size": 8000,
+                                        "node": {
+                                            "name": "TypeScript",
+                                            "color": "#2b7489"
+                                        }
+                                    }
+                                ]
                             }
                         },
                         "contributions": {
@@ -2190,17 +2260,8 @@ export const dummyData: client.ResponseType = {
                     },
                     {
                         "repository": {
-                            "primaryLanguage": null
-                        },
-                        "contributions": {
-                            "totalCount": 4
-                        }
-                    },
-                    {
-                        "repository": {
-                            "primaryLanguage": {
-                                "name": "C",
-                                "color": "#555555"
+                            "languages": {
+                                "edges": []
                             }
                         },
                         "contributions": {
@@ -2209,9 +2270,34 @@ export const dummyData: client.ResponseType = {
                     },
                     {
                         "repository": {
-                            "primaryLanguage": {
-                                "name": "Ruby",
-                                "color": "#701516"
+                            "languages": {
+                                "edges": [
+                                    {
+                                        "size": 6000,
+                                        "node": {
+                                            "name": "C",
+                                            "color": "#555555"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "contributions": {
+                            "totalCount": 4
+                        }
+                    },
+                    {
+                        "repository": {
+                            "languages": {
+                                "edges": [
+                                    {
+                                        "size": 3000,
+                                        "node": {
+                                            "name": "Ruby",
+                                            "color": "#701516"
+                                        }
+                                    }
+                                ]
                             }
                         },
                         "contributions": {
@@ -2220,9 +2306,16 @@ export const dummyData: client.ResponseType = {
                     },
                     {
                         "repository": {
-                            "primaryLanguage": {
-                                "name": "Go",
-                                "color": "#00ADD8"
+                            "languages": {
+                                "edges": [
+                                    {
+                                        "size": 2000,
+                                        "node": {
+                                            "name": "Go",
+                                            "color": "#00ADD8"
+                                        }
+                                    }
+                                ]
                             }
                         },
                         "contributions": {

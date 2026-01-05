@@ -3,62 +3,42 @@ import * as type from '../src/type';
 import { dummyData } from './dummy-data';
 
 describe('github-graphql', () => {
-    it('fetchData', () => {
-        const userInfo = aggregate.aggregateUserInfo(dummyData);
+    it('fetchData', async () => {
+        const userInfo = await aggregate.aggregateUserInfo(dummyData);
         console.log(userInfo);
 
         expect(userInfo.contributionCalendar.length).toEqual(371);
 
         const languages: Array<type.LangInfo> = [
             {
-                "language": "Jupyter Notebook",
-                "color": "#DA5B0B",
-                "contributions": 108
-            },
-            {
-                "language": "Perl",
-                "color": "#0298c3",
-                "contributions": 73
-            },
-            {
-                "language": "Kotlin",
-                "color": "#F18E33",
-                "contributions": 58
-            },
-            {
-                "language": "TypeScript",
-                "color": "#2b7489",
-                "contributions": 31
-            },
-            {
                 "language": "Java",
                 "color": "#b07219",
-                "contributions": 28
-            },
-            {
-                "language": "Go",
-                "color": "#00ADD8",
-                "contributions": 20
+                "contributions": 64.43
             },
             {
                 "language": "Python",
                 "color": "#3572A5",
-                "contributions": 10
+                "contributions": 30.13
+            },
+            {
+                "language": "Vue",
+                "color": "#41b883",
+                "contributions": 3.44
+            },
+            {
+                "language": "TypeScript",
+                "color": "#3178c6",
+                "contributions": 1.06
+            },
+            {
+                "language": "ANTLR",
+                "color": "#9DC3FF",
+                "contributions": 0.5
             },
             {
                 "language": "JavaScript",
                 "color": "#f1e05a",
-                "contributions": 7
-            },
-            {
-                "language": "C",
-                "color": "#555555",
-                "contributions": 4
-            },
-            {
-                "language": "Ruby",
-                "color": "#701516",
-                "contributions": 1
+                "contributions": 0.44
             }
         ];
         expect(userInfo.contributesLanguage).toEqual(languages);
